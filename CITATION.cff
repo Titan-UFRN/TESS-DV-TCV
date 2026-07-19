@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this code release."
+title: "Cutoff-Safe Tabular Fusion of TESS Data-Validation Products for Temporal Candidate Vetting"
+type: software
+authors:
+  - family-names: "Oliveira"
+    given-names: "João Paolo Cavalcante Martins"
+  - family-names: "de Almeida"
+    given-names: "Leonardo Andrade"
+repository-code: "https://github.com/paoloo/TESS-DV-TCV"
+license: BSD-3-Clause
+version: 1.0.0
+date-released: 2026-07-19
+keywords:
+  - TESS
+  - exoplanets
+  - transit vetting
+  - temporal validation
+  - data provenance
+  - machine learning
+preferred-citation:
+  type: article
+  title: "Cutoff-Safe Tabular Fusion of TESS Data-Validation Products for Temporal Candidate Vetting"
+  authors:
+    - family-names: "Oliveira"
+      given-names: "João Paolo Cavalcante Martins"
+    - family-names: "de Almeida"
+      given-names: "Leonardo Andrade"
+  year: 2026
