@@ -1,0 +1,45 @@
+# macOS/editor
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Data are supplied externally or restored from the experiment archive.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated outputs.
+reports/*.csv
+reports/*.json
+reports/*.pdf
+reports/*.png
+reports/validation/*.csv
+reports/validation/*.json
+reports/validation/*.pdf
+reports/validation/*.png
+reports/validation/*.svg
+reports/**/*.csv
+reports/**/*.json
+reports/**/*.pdf
+reports/**/*.png
+reports/**/*.svg
+!reports/.gitkeep
+!reports/*.md
+!reports/validation/.gitkeep
+!reports/validation/*.md
+!reports/**/*.md
+
+# Large astronomy products.
+*.fits
+*.fits.gz
+*.xml.gz
+*.h5
+*.hdf5
