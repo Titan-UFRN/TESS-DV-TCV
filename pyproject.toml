@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tess-dv-tcv"
+version = "1.0.0"
+description = "Cutoff-safe tabular fusion of TESS data-validation products"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "BSD-3-Clause"}
+authors = [
+  {name = "João Paolo Cavalcante Martins Oliveira"},
+  {name = "Leonardo Andrade de Almeida"},
+]
+dependencies = ["numpy>=1.24,<3"]
+
+[project.urls]
+Repository = "https://github.com/paoloo/TESS-DV-TCV"
+
+[tool.setuptools]
+packages = []
+py-modules = []
