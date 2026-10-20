@@ -14,7 +14,7 @@ Before publishing a paper release:
 4. Verify the unpacked bundle with `python3 scripts/verify_inputs.py`.
 
 Until an archival DOI is assigned, the repository's release page is:
-<https://github.com/paoloo/TESS-DV-TCV/releases>.
+<https://github.com/Titan-UFRN/TESS-DV-TCV/releases>.
 
 ## Pinned inputs
 
